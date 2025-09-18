@@ -101,8 +101,9 @@ section {
 
 .about-content img {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 200px;       /* base width */
+  max-width: 80%;     /* responsive on smaller screens */
+  height: auto;       /* maintain aspect ratio */
   object-fit: cover;
 }
 
